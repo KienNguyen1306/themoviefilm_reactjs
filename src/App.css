@@ -477,11 +477,11 @@
   margin: 0 5px;
 }
 .slick-list {
-  margin: 0 -20px;
+ 
 }
 
 .mainslider .slick-next {
-  right: 40px;
+  right: 20px;
 }
 .slick-prev,
 .slick-next {
@@ -1891,3 +1891,22 @@ aside .item .body .title {
   align-items: center;
   justify-content: center;
 }
+
+
+
+
+.PercentageCircle{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  
+}
+
+.PercentageCircle .CircularProgressbar-text{
+  font-size: 4rem;
+}
+
+/* .CircularProgressbar{
+  background-color: #121212;
+  border-radius: 100%;
+} */

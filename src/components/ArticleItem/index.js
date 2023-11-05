@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import ArticleImage from "../ArticleImage";
+import PercentageCircle from "./PercentageCircle";
 
 function ArticleItem({ data }) {
   return (
@@ -10,6 +11,7 @@ function ArticleItem({ data }) {
       <div className="title">
         <p className="line-camp">{data?.title}</p>
       </div>
+      <PercentageCircle vote_average={data?.vote_average}/>
     </Link>
   );
 }

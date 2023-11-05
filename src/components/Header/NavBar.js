@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import { IconDown } from "../icons";
 import SubMenu from "./SubMenu";
+import { Link } from "react-router-dom";
 
 function NavBar({isbar,handleShowMenu}) {
   let { lists: listCaterogy } = useSelector(
@@ -42,10 +43,10 @@ function NavBar({isbar,handleShowMenu}) {
             ))}
           </ul>
         </li>
+        <Link to={`/movie/topview?type=topview&name=Phim hot hôm nay`} className="menu-item ">
+          <p >Topviews</p>
+        </Link>
         {/* <li className="menu-item ">
-          <p>Topviews</p>
-        </li>
-        <li className="menu-item ">
           <p>phim chiếu rạp</p>
         </li> */}
       </ul>

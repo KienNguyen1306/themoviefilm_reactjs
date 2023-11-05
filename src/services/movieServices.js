@@ -33,6 +33,7 @@ const movieService = {
       noplay: `movie/now_playing?page=${page}&language=vi`,
       upcoming: `movie/upcoming?page=${page}&language=vi`,
       toprate: `movie/top_rated?page=${page}&language=vi`,
+      topview: `trending/movie/day?page=${page}&language=vi`,
     };
 
     if (type in typeToUrlMap) {
