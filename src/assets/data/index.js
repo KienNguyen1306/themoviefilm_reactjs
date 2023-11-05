@@ -1,0 +1,16 @@
+export const dataTopSearch = [
+  " quái vật",
+  "khủng bố bố",
+  "phù thủy",
+  "zombie",
+  "superman",
+  "ma cà rồng",
+  "marvel",
+  "batman",
+  "iron man",
+  "Phim Kinh Dị",
+  "Phim Nhạc",
+  "Phim Bí Ẩn",
+  "robot",
+  "ma cương thi",
+];

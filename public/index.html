@@ -7,37 +7,37 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Khám phá thế giới của những bộ phim hot nhất và dàn sao đỉnh cao. Tận hưởng hành trình điện ảnh với những tác phẩm nổi bật đang làm mưa làm gió. Chào mừng bạn đến thế giới của điện ảnh đỉnh cao"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Phim Hot Nhất: Khám Phá Dàn Sao Đỉnh Cao</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="mains">
+      <div id="root"></div>
+      <footer class="footer">
+        <div class="container">
+          <a class="logo" href="/"
+            ><img
+              class="logo"
+              src="/static/media/logo.1abe3bd3095ae7f693bf.png"
+              alt="logo" /><img
+              class="logo2"
+              src="data:image/png;base64,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"
+              alt="logo"
+          /></a>
+          <p class="title">
+            Chào mừng bạn đến với website xem phim trực tuyến hoàn toàn miễn phí
+            PHIMHAY.ORG. Đến với chúng tôi bạn sẽ được xem nhiều phim với thể loại
+            nội dung hấp dẫn mới lạ, chất lượng phim rõ nét. Trang web nói không
+            với phim thể loại ấu dâm, bạo dâm, khuyến cáo không được tự ý làm theo
+            những điều trong phim tránh vi phạm pháp luật.
+          </p>
+          <p class="Copyright">© Copyright 2023 NDK, All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
